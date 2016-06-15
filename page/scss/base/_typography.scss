@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic); 
+@import url(https://fonts.googleapis.com/css?family=Nixie+One); /* headers in sections */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono); /*for yes/no sections */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300);
+
+header {
+	overflow: hidden;
+	.name {
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: rgb(0, 0, 0);
+		z-index: 5;
+	}
+	.additive {
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: rgb(191, 191, 191);
+	}
+}
+
+section	{
+	.main {
+		h1 {
+			padding-top: 105%;
+			text-align: center;
+			font-family: 'Ubuntu', sans-serif;
+			color: rgba(0, 0, 0, 0.8);
+		}
+	}
+	.to_main {
+		font-family: 'Lora', serif;
+		font-style: italic;
+		opacity: 0.6;
+	}
+	.preface {
+		h2 {
+			font-family: 'Nixie One', cursive;
+			font-size: 30px;
+			margin-top: 25px;
+			padding-left: 40px;
+			padding-bottom: 5px;
+			color: rgba(0, 0, 0, 0.3);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+		}
+		p {
+			font-family: 'Arial Narrow', sans-serif;
+			font-size: 17px;
+			letter-spacing: 0.8px;
+		}
+	}
+	.table {
+		td {
+			font-family: 'Arial Narrow', sans-serif;
+			font-size: 17px;
+			letter-spacing: 0.8px;
+		}
+		h2 {
+			font-family: 'Nixie One', cursive;
+			font-size: 30px;
+			margin-top: 25px;
+			padding-left: 40px;
+			padding-bottom: 5px;
+			color: rgba(0, 0, 0, 0.3);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+		}
+		h3 {
+			font-family: 'Nixie One', cursive;
+			font-size: 24px;
+			margin-top: 10px;
+			padding-left: 40px;
+			padding-bottom: 5px;
+			color: rgba(0, 0, 0, 0.3);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+		}
+	}
+	.tools, .description {
+		h3 {
+			font-family: 'Nixie One', cursive;
+			font-size: 24px;
+			margin-top: 10px;
+			padding-left: 40px;
+			padding-bottom: 5px;
+			color: rgba(0, 0, 0, 0.3);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+		}
+		p {
+			font-family: 'Arial Narrow', sans-serif;
+			font-size: 17px;
+			letter-spacing: 0.8px;
+		}
+	}
+	.yesno {
+		td {
+			font-family: 'Roboto Mono', sans-serif;
+			font-size: 18px;
+			color: black;
+			letter-spacing: 1px;
+			padding-bottom: 10px;
+
+		}
+		.to_main {
+			font-family: 'Lora', serif;
+			font-style: italic;
+			opacity: 0.6;
+			padding: 5px 5px;
+			margin: 5px 5px;
+		}
+	}	
+}

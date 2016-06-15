@@ -1,0 +1,108 @@
+section {
+	height: 100vh;
+	.external {
+		height: 100vh;
+		border-right: 2px solid black;
+		.col-xs-1 {
+			height: 100vh;
+		}
+		.internal {
+			margin: 20% 12% 5% 12%;
+			height: 60%;
+			padding: 0 25px 0 55px;
+			border-right: none;
+			background-color: white;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			@include border-radius(6px);
+			@include box-shadow(0px 0px 3px 4px rgba(0, 0, 0, 0.5));
+			.table {
+				padding: 5px;
+				margin: 10px 40px 0 20px;
+				.date {
+					text-align: right;
+					vertical-align: top;
+					padding: 5px 10px 10px 0;
+					line-height: 1;
+				}
+				.content {
+					@extend .date;
+					text-align: left;
+					padding: 5px 0 5px 5px;
+				}
+				.content1 {
+					@extend .content;
+					vertical-align: text-bottom;
+				}
+				img {
+					align-self: right;
+					width: 30px;
+					height: auto;
+					margin: 3px 20px;
+				}
+			}
+			.to_main {
+				position: fixed;
+				display: inline-block;
+				margin-top: 50px;
+				margin-left: -60px;
+				text-align: left;
+				background-color: white;
+				@include rotate-text(270deg);
+			}
+			.screen {
+				width: 270px;
+				height: 180px;
+				background-color: gray;
+				padding: 10px;
+			}
+			.page img{
+				display: inline-block;
+				float: left;
+				margin: 10px 10px;
+				max-width: 270px;
+				max-height: 180px;
+			}
+			.tools {
+				max-width: 320px;
+
+				float: left;
+				li {
+					display: inline;
+				}
+				img {
+					width: 45px;
+					height: auto;
+					margin: 5px 5px;
+				}
+			}
+			.description {
+				clear: both;
+			}
+			.exp {
+				margin-top:	40px;
+			}
+		}
+		.yesno {
+			margin: 15% 7% 0 5%;
+			height: 70%;
+			border-right: none;
+			.table {
+				margin-left: 20px;
+			}
+			.to_main {
+				position: fixed;
+				display: inline-block;
+				margin-top: 50px;
+				margin-left: -60px;
+				text-align: left;
+				opacity: 1;
+				background-color: white;
+				@include rotate-text(270deg);
+			}
+		}
+	}
+	.last {
+		border-right: none;
+	}
+}

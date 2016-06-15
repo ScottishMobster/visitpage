@@ -1,0 +1,27 @@
+@mixin rotate-text($deg) {
+  -webkit-transform: rotate($deg);
+     -moz-transform: rotate($deg);
+      -ms-transform: rotate($deg);
+          transform: rotate($deg);
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow($property) {
+  -webkit-box-shadow: $property;
+     -moz-box-shadow: $property;
+      -ms-box-shadow: $property;
+          box-shadow: $property;
+}
+
+@mixin text-shadow($property) {
+  -webkit-text-shadow: $property;
+     -moz-text-shadow: $property;
+      -ms-text-shadow: $property;
+          text-shadow: $property;
+}

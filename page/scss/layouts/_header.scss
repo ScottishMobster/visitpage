@@ -1,0 +1,38 @@
+header {
+	position: absolute;
+	width: 100%;
+	height: 12%;
+	background-color: rgba(250, 250, 250, 1);
+	z-index: 100;
+	@include box-shadow(3px 6px 5px rgba(0, 0, 0, 0.6));
+	.name {
+		position: absolute;
+		top: 15%;
+		left: 15%;
+	}
+	.additive {
+		position: absolute;
+		top: 55%;
+		left: 15%;
+	}
+	.since {
+		position: absolute;
+		top: 0%;
+		left:25%;
+		overflow: hidden;
+	}
+	ul {
+		position: absolute;
+		top: 15%;
+		right: 10%;
+		border-left: 2px solid rgb(128, 0, 255);
+		z-index: 5;
+	}
+	a {
+		img {
+			width: 26px;
+			height: auto;
+			margin: 0px 10px;
+		}
+	}
+}
